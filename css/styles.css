@@ -1,0 +1,35 @@
+body{
+    background-color:azure;
+    margin: 0px;
+}
+#container{
+    background-color: beige;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    min-height: 35em;
+/*Header stuff*/
+}
+.header{
+    display:flex;
+    background-color:aliceblue;
+}
+#header_left{
+    width: 75%;
+    float:left
+}
+#header_right{
+    width: 25%;
+    float: right
+}
+/*Footer css */
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: center;
+}
