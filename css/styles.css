@@ -1,9 +1,9 @@
 body{
-    background-color:azure;
+    background-color:blanchedalmond;
     margin: 0px;
 }
 #container{
-    background-color: beige;
+    background-color:darkseagreen;
     width: 80%;
     height: 100%;
     margin: 0 auto;
@@ -11,18 +11,17 @@ body{
     min-height: 35em;
 /*Header stuff*/
 }
-.header{
-    display:flex;
-    background-color:aliceblue;
+
+.header {
+  padding: 20px;
+  text-align: center;
+  background: url(https://www.freewebheaders.com/wordpress/wp-content/gallery/cats/lovely-american-shorthair-kitten-website-header.jpg);
+    height: 230px   ;
+  color: black;
+  font-size: 30px;
 }
-#header_left{
-    width: 75%;
-    float:left
-}
-#header_right{
-    width: 25%;
-    float: right
-}
+
+
 /*Footer css */
 #footer{
     position: fixed;
