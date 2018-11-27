@@ -34,7 +34,7 @@ body{
     color: white;
     text-align: center;
 }
-
+.rate{
 	-webkit-transition: -webkit-transform 0.4s ease-out;
 	-o-transition: -o-transform 0.4s ease;
 	-ms-transition: -ms-transform 0.4s ease;
@@ -107,8 +107,6 @@ fieldset {
 .accordion-content {
   overflow: hidden;
   background: #1abc9c;
-  -webkit-transition: max-height .35s;
-  -o-transition: max-height .35s;
   transition: max-height .35s;
   display: block;
   padding: 1em 0 1em 0;
