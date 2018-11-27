@@ -173,3 +173,29 @@ form .stars span {
   -o-transition: -o-width 0.5s;
   transition: width 0.5s;
 }
+
+.accordion_content {
+  overflow: hidden;
+  background: #1abc9c;
+  -webkit-transition: max-height .35s;
+  -o-transition: max-height .35s;
+  transition: max-height .35s;
+}
+
+.tab {
+  position: relative;
+  margin-bottom: 1px;
+  width: 80%;
+  color: #fff;
+  overflow: hidden;
+}
+
+.title {
+  position: relative;
+  display: block;
+  padding: 0 0 0 1em;
+  background: #16a085;
+  font-weight: bold;
+  line-height: 3;
+  cursor: pointer;
+}
