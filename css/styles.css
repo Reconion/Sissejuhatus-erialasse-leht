@@ -63,10 +63,13 @@ body{
 
 .cat-table {
 	font-size: 14px;
-	border: 1px solid black;
+	width: 100%;
 }
 	
-
+.cat-image {
+	height: 128px
+}
+	
 td {
 	text-align: left;
 }
