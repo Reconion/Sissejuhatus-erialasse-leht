@@ -1,7 +1,7 @@
 body{
     background-color:blanchedalmond;
     margin: 0px;
-	text-align: center;
+    text-align: center;
 }
 
 #container{
@@ -15,12 +15,12 @@ body{
 }
 
 .header{
-  padding: 20px;
-  text-align: center;
-  background: url(https://www.freewebheaders.com/wordpress/wp-content/gallery/cats/lovely-american-shorthair-kitten-website-header.jpg);
-    height: 230px   ;
-  color: black;
-  font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    background: url(https://www.freewebheaders.com/wordpress/wp-content/gallery/cats/lovely-american-shorthair-kitten-website-header.jpg);
+    height: 230px;
+    color: black;
+    font-size: 30px;
 }
 
 
@@ -35,11 +35,46 @@ body{
     text-align: center;
 }
 
+.accordion-content {
+    overflow: hidden;
+    background: #1abc9c;
+    transition: max-height .35s;
+    display: block;
+    padding: 0 0 0 0;
+}
+
+.tab {
+    position: relative;
+    margin-bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.title {
+    position: relative;
+    display: block;
+    background: #16a085;
+    font-weight: bold;
+    line-height: 3;
+    cursor: pointer;
+}
+
+.cat-table {
+	font-size: 14px;
+	border: 1px solid black;
+}
+	
+
+td {
+	text-align: left;
+}
+
 	-webkit-transition: -webkit-transform 0.4s ease-out;
 	-o-transition: -o-transform 0.4s ease;
 	-ms-transition: -ms-transform 0.4s ease;
 	transition: transform 0.4s ease;
-        box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 
@@ -58,75 +93,47 @@ body{
     
 }
 @-webkit-keyframes glowing {
-  0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
-  50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
-  100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+    0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+    50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+    100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
 }
 
 @-moz-keyframes glowing {
-  0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
-  50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
-  100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+    0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+    50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+    100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
 }
 
 @-o-keyframes glowing {
-  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
-  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
-  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+    0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+    50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+    100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
 }
 
 @keyframes glowing {
-  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
-  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
-  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+    0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+    50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+    100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
 }
 .btn:hover {background: #eee;}
 .rate {color: aqua}
 
 // extra styles
 :root {
-  font-size: 2em;
-  font-family: Helvetica, arial, sans-serif;
+    font-size: 2em;
+    font-family: Helvetica, arial, sans-serif;
 }
 fieldset {
-  border: 0;
-  background: #222;
-  width: 5em;
-  border-radius: 1px;
-  padding: 1em 1.5em 0.9em;
-  margin: 1em auto;
+    border: 0;
+    background: #222;
+    width: 5em;
+    border-radius: 1px;
+    padding: 1em 1.5em 0.9em;
+    margin: 1em auto;
 }
 #log {
-  margin: 1em auto;
-  width: 5em;
-  text-align: center;
-  background: transparent;
-}
-
-
-.accordion-content {
-  overflow: hidden;
-  background: #1abc9c;
-  -webkit-transition: max-height .35s;
-  -o-transition: max-height .35s;
-  transition: max-height .35s;
-  display: block;
-  padding: 1em 0 1em 0;
-}
-
-.tab {
-  position: relative;
-  margin-bottom: 1px;
-  width: 100%;
-  overflow: hidden;
-  display: block;
-}
-
-.title {
-  position: relative;
-  display: block;
-  background: #16a085;
-  font-weight: bold;
-  line-height: 3;
-  cursor: pointer;
+    margin: 1em auto;
+    width: 5em;
+    text-align: center;
+    background: transparent;
 }
