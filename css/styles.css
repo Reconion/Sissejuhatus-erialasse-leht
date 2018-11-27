@@ -102,13 +102,14 @@ fieldset {
 }
 
 
-
 .accordion_content {
   overflow: hidden;
   background: #1abc9c;
   -webkit-transition: max-height .35s;
   -o-transition: max-height .35s;
   transition: max-height .35s;
+  display: block;
+  padding: 1em 0 1em 1em;
 }
 
 .tab {
@@ -117,6 +118,7 @@ fieldset {
   width: 80%;
   color: #fff;
   overflow: hidden;
+  display: block;
 }
 
 .title {
