@@ -5,6 +5,8 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/t2hekesed.css">
+        <link rel="stylesheet" href="css/kiisupildid.css">
+        <script type="text/javascript" src="javascript/pildid.js"></script>
         <title>
             Rate my cat
         </title>
@@ -14,24 +16,87 @@
         <div class="header">
             <h1>Rate my cat</h1>
         </div>
-        <div id="container">
-            <form>
-                <form id="ratingsForm">
-                    <div class="stars">
-                        <input type="radio" name="star" class="star-1" id="star-1" />
-                        <label class="star-1" for="star-1">1</label>
-                        <input type="radio" name="star" class="star-2" id="star-2" />
-                        <label class="star-2" for="star-2">2</label>
-                        <input type="radio" name="star" class="star-3" id="star-3" />
-                        <label class="star-3" for="star-3">3</label>
-                        <input type="radio" name="star" class="star-4" id="star-4" />
-                        <label class="star-4" for="star-4">4</label>
-                        <input type="radio" name="star" class="star-5" id="star-5" />
-                        <label class="star-5" for="star-5">5</label>
-                        <span></span>
-                    </div>
-                </form>
+
+        <div id="mySlides">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade"><img src="pilt (1).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (2).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (3).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (4).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (5).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (6).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (7).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (8).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (9).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (10).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (11).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (12).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (13).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (14).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (15).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (16).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (17).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (18).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (19).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (20).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (21).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (22).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (23).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (24).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (25).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (26).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (27).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (28).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (29).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (30).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (31).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (32).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (33).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (34).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (35).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (36).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (37).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (38).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (39).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (40).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (41).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (42).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (43).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (44).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (45).jpg" style="width: 100"></div>
+                <div class="mySlides fade"><img src="pilt (46).jpg" style="width: 100"></div>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+
+        </div>
+        <form>
+            <form id="ratingsForm">
+                <div class="stars" onclick="plusDivs(1)">
+                    <input type="radio" name="star" class="star-1" id="star-1" />
+                    <label class="star-1" for="star-1">1</label>
+                    <input type="radio" name="star" class="star-2" id="star-2" />
+                    <label class="star-2" for="star-2">2</label>
+                    <input type="radio" name="star" class="star-3" id="star-3" />
+                    <label class="star-3" for="star-3">3</label>
+                    <input type="radio" name="star" class="star-4" id="star-4" />
+                    <label class="star-4" for="star-4">4</label>
+                    <input type="radio" name="star" class="star-5" id="star-5" />
+                    <label class="star-5" for="star-5">5</label>
+                    <span></span>
+                </div>
             </form>
+        </form>
 
 
         </div>
