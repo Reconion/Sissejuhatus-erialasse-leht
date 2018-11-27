@@ -103,7 +103,7 @@ fieldset {
 
 
 form .stars {
-  background: url("http://pngimg.com/uploads/star/star_PNG41478.png") repeat-x 0 0;
+  background: url("stars.png") repeat-x 0 0;
   width: 150px;
   margin: 0 auto;
 }
@@ -132,32 +132,32 @@ form .stars label {
   display: block;
   width: 30px;
   height: 30px;
-  margin: 0!important;
-  padding: 0!important;
+  margin: 10px;
+  padding: 10px;
   text-indent: -999em;
   float: left;
   position: relative;
   z-index: 10;
-  background: transparent!important;
+  background: transparent;
   cursor: pointer;
 }
 form .stars label:hover ~ span {
   background-position: 0 -30px;
 }
 form .stars label.star-5:hover ~ span {
-  width: 100% !important;
+  width: 100% ;
 }
 form .stars label.star-4:hover ~ span {
-  width: 80% !important;
+  width: 80% ;
 }
 form .stars label.star-3:hover ~ span {
-  width: 60% !important;
+  width: 60% ;
 }
 form .stars label.star-2:hover ~ span {
-  width: 40% !important;
+  width: 40% ;
 }
 form .stars label.star-1:hover ~ span {
-  width: 20% !important;
+  width: 20% ;
 }
 form .stars span {
   display: block;
@@ -166,7 +166,7 @@ form .stars span {
   top: 0;
   left: 0;
   height: 30px;
-  background: url("http://pngimg.com/uploads/star/star_PNG41478.png") repeat-x 0 -60px;
+  background: url("stars.png") repeat-x 0 -60px;
   -webkit-transition: -webkit-width 0.5s;
   -moz-transition: -moz-width 0.5s;
   -ms-transition: -ms-width 0.5s;
