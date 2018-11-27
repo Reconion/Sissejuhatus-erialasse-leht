@@ -44,9 +44,9 @@ body{
     padding: 0 0 0 0;
 }
 
-.tab {
+.accordion {
     position: relative;
-    margin-bottom: 0;
+    margin-bottom: 3px;
     width: 100%;
     overflow: hidden;
     display: block;
@@ -62,12 +62,12 @@ body{
 }
 
 .cat-table {
-	font-size: 14px;
+	font-size: 15px;
 	width: 100%;
 }
 	
 .cat-image {
-	height: 128px
+	height: 128px;
 }
 	
 td {
