@@ -42,12 +42,17 @@ img {vertical-align: middle;}
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 30px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 }
 
 /* Number text (1/3 etc) */
@@ -119,4 +124,8 @@ img {vertical-align: middle;}
 .kassivideo{
     height: 100%;
     overflow: hidden;
+}
+.content{
+    text-align:justify;
+    margin: 30px
 }
