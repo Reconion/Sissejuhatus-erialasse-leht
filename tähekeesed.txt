@@ -18,3 +18,49 @@
 
 
 tähekesed
+
+                <div class="mySlides fade"><img src="/Rated/img/pilt (2).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/Rated/img/pilt (3).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/Rated/img/pilt (4).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/Rated/img/pilt (5).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/Rated/img/pilt (6).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (7).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (8).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (9).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (10).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (11).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (12).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (13).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (14).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (15).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (16).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (17).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (18).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (19).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (20).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (21).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (22).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (23).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (24).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (25).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (26).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (27).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (28).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (29).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (30).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (31).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (32).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (33).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (34).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (35).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (36).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (37).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (38).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (39).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (40).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (41).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (42).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (43).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (44).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (45).jpg" style="width: 100%"></div>
+                <div class="mySlides fade"><img src="/img/pilt (46).jpg" style="width: 100%"></div>
