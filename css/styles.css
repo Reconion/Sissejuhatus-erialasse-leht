@@ -71,12 +71,12 @@ body {
 	height: 128px;
 }
 	
-td {
+.cat-table td {
 	text-align: left;
 	padding: 0.1em 0.5em 0.1em 0.5em;
 }
 
-th {
+.cat-table th {
 	text-align: left;
 	padding: 0 1em 0 1em
 }
@@ -169,3 +169,4 @@ a:hover {
 
 a:active {
     text-decoration: underline;
+}
