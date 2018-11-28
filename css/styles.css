@@ -1,10 +1,11 @@
-body{
+body {
     background-color:blanchedalmond;
     margin: 0px;
     text-align: center;
+	font-family: "Averia Serif Libre";
 }
 
-#container{
+#container {
     background-color:darkseagreen;
     width: 80%;
     height: 100%;
@@ -14,7 +15,7 @@ body{
 /*Header stuff*/
 }
 
-.header{
+.header {
     padding: 20px;
     text-align: center;
     background: url(https://www.freewebheaders.com/wordpress/wp-content/gallery/cats/lovely-american-shorthair-kitten-website-header.jpg);
@@ -25,7 +26,7 @@ body{
 
 
 /*Footer css */
-#footer{
+#footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -34,7 +35,6 @@ body{
     color: white;
     text-align: center;
 }
-
 
 .accordion-content {
     overflow: hidden;
@@ -50,6 +50,7 @@ body{
     width: 100%;
     overflow: hidden;
     display: block;
+	font-family: "Averia Libre";
 }
 
 .title {
@@ -72,6 +73,7 @@ body{
 	
 td {
 	text-align: left;
+	padding: 0.1em 0.5em 0.1em 0.5em;
 }
 
 th {
@@ -79,12 +81,13 @@ th {
 	padding: 0 1em 0 1em
 }
 
-.rate{
+.rate {
 	-webkit-transition: -webkit-transform 0.4s ease-out;
 	-o-transition: -o-transform 0.4s ease;
 	-ms-transition: -ms-transform 0.4s ease;
 	transition: transform 0.4s ease;
     box-sizing: border-box;
+	color: aqua;
 }
 
 
@@ -125,14 +128,17 @@ th {
     50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
     100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
 }
-.btn:hover {background: #eee;}
-.rate {color: aqua}
+
+.btn:hover {
+	background: #eee;
+}
 
 // extra styles
 :root {
     font-size: 2em;
     font-family: Helvetica, arial, sans-serif;
 }
+
 fieldset {
     border: 0;
     background: #222;
@@ -141,6 +147,7 @@ fieldset {
     padding: 1em 1.5em 0.9em;
     margin: 1em auto;
 }
+
 #log {
   margin: 1em auto;
   width: 5em;
